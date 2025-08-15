@@ -16,7 +16,8 @@ export default function Sidebar() {
     <div className="card px-3 py-4 md:py-6">
       <div className="px-2 md:px-3 pb-4 border-b">
         <span className="text-xl font-bold text-hc.slate">
-          <span className="text-hc.primary">Health</span>care.
+           <span className="text-[#07c4e6]">Health</span>
+    <span className="text-black">care.</span>
         </span>
       </div>
 

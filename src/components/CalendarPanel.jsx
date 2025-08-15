@@ -8,16 +8,16 @@ export default function CalendarPanel() {
           <p className="muted">October 2021</p>
         </div>
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-full bg-hc.soft flex items-center justify-center text-sm">🧑</div>
-          <button className="h-8 w-8 rounded-xl bg-hc.primary text-black flex items-center justify-center shadow-pill">
-            <Plus size={18} />
+          <div className="h-8 w-8 rounded-full bg-[#07c4e6] flex items-center justify-center text-sm">🧑</div>
+          <button className="h-8 w-8 rounded-md bg-blue-500 text-white k flex items-center justify-center shadow-pill">
+            <Plus size={18} className="" />
           </button>
         </div>
       </div>
 
       <div className="grid grid-cols-7 gap-2 mt-4">
         {["Mon 25", "Tue 26", "Wed 27", "Thu 28", "Fri 29", "Sat 30", "Sun 31"].map((d, i) => (
-          <div key={d} className={`text-center py-2 rounded-xl text-sm ${i === 1 ? "bg-hc.primary text-white" : "bg-hc.soft text-hc.slate"}`}>
+          <div key={d} className={`text-center py-2 rounded-xl text-sm ${i === 1 ? "bg-hc.primary text-black" : "bg-hc.soft text-hc.slate"}`}>
             {d}
           </div>
         ))}
