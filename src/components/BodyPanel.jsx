@@ -1,4 +1,4 @@
-
+import Body from "../assets/body.jpg"
  export default function BodyPanel() {
   return (
     <div className="relative card overflow-hidden">
@@ -13,7 +13,7 @@
                 <stop offset="100%" stopColor="#e3a590"/>
               </linearGradient>
             </defs>
-            
+            <img src={Body} alt="body" />
           </svg>
 
           <div className="absolute left-1/2 -translate-x-1/2 top-[90px]">

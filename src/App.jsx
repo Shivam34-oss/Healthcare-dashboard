@@ -6,6 +6,7 @@ import ActivityChart from "./components/ActivityChart";
 import CalendarPanel from "./components/CalendarPanel";
 import Appointments from "./components/Appointments";
 import ScheduleList from "./components/ScheduleList";
+
 export default function App() {
   return (
     <div className="min-h-screen">
